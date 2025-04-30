@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="VSIXProject2.QuestionTest.QuestionTestWindowControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VSIXProject2.QuestionTest"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#1E1E1E">
+        <TabControl x:Name="questionResult" BorderThickness="0" Background="#1E1E1E" Foreground="White" >
+        </TabControl>
+    </Grid>
+</UserControl>
